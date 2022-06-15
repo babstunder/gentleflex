@@ -109,8 +109,8 @@ h1{
      #design-box{
      	display: flex;
         flex-wrap: wrap;
-        width: 400px;
-	height: 30rem;
+        width: 350px;
+	height: 40rem;
 	overflow-y: scroll;
 	border:5px solid hsla(0, 0%, 100%, 0.75);;
 	border-radius: 10px;
