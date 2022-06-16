@@ -3,18 +3,72 @@ body{
 	font-family: 'Lexend Deca', sans-serif;
 	font-weight: 400;
 }
+.grid-body{
+  background: white;
+}
 #design-box{
 	
 	align-self: center;
 	margin: auto;
-	margin-top: 7rem;
+	margin-top: 2rem;
    
     display: flex;
 	
-	width: 750px;
+	width: 700px;
 	height: 27rem;
 
 }
+.item1 { grid-area: header; }
+.item2 { grid-area: men; }
+.item3 { grid-area: main; }
+.item4 { grid-area: righ; }
+.item5 { grid-area: footer; }
+.grid-con {
+  display: grid;
+  grid-template-areas:
+    'header header header header men men'
+    'header header header  header men men'
+     'header header header  header men men'
+      'header header header  header men men'
+    'main main main righ righ righ '
+     'main main main righ righ righ '
+    
+     'main main main footer footer footer '
+    '  main main main footer footer footer'
+;
+
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  width: 600px;
+  height: 440px;
+  margin: auto;
+  margin-top: 4rem;
+
+}
+.item1{
+	
+	background: #ddd;
+}
+.item2{
+	
+	background: black;
+}
+.item3{
+	
+	background:grey; 
+}
+.item4{
+	
+	background: silver;
+}
+.item5{
+	
+	background: silver;
+}
+
+
+
 #each-box1{
 	background: hsl(31, 77%, 52%);
 	border-top-left-radius: 10px;
@@ -104,6 +158,23 @@ h1{
 	color: hsl(179, 100%, 13%);
 	border-color: transparent ;
 }
+.gentle{
+	margin-left: 45%;
+	margin-top: 4rem;
+}
+.gentleb{
+	border:1px solid hsl(184, 100%, 22%);;
+	background: hsl(184, 100%, 22%); ;
+	border-radius: 20px;
+	padding: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+.gentleb:hover,
+.gentleb:active{
+	background:  hsl(179, 100%, 13%) ;
+}
 
 @media (max-width:630px)  {
      #design-box{
@@ -118,6 +189,8 @@ h1{
 
 
 }
+.gentle{
+	margin-left: 40%;}
 #each-box1{
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 0px;
@@ -132,4 +205,10 @@ h1{
 	margin-left: 37px;
 	margin-bottom: 20px;
 
+}
+.grid-con {
+
+	width: 340px;
+	height: 270px;
+}
 }
