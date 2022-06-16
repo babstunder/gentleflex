@@ -15,7 +15,7 @@ body{
     display: flex;
 	
 	width: 700px;
-	height: 27rem;
+	height: 24rem;
 
 }
 .item1 { grid-area: header; }
@@ -73,12 +73,14 @@ body{
 	background: hsl(31, 77%, 52%);
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	font-size: 15px;
+	
+	height: 27rem;
 
 	
 }
 #each-box2{
 	background:hsl(184, 100%, 22%);
+	height: 27rem;
 	
    
 }
@@ -86,18 +88,19 @@ body{
 	background:hsl(179, 100%, 13%);
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
+	height: 27rem;
 	
 	
 }
 
 .design-icon{
-	margin-top: 35px;
+	margin-top: 25px;
 	margin-left: 35px;
 	width: 10px;
 	height: 10px;
 }
 .design-head{
-	margin-top: 55px;
+	
 	margin-left: 37px;
 }
 p{
@@ -107,15 +110,16 @@ p{
 h1{
 	color: hsl(0, 0%, 95%);
 
+
 }
 .design-par{
 	margin-top: 25px;
 	margin-left: 37px;
 	
-    line-height: 22px;
+    
     margin-right: 30px;
-    margin-bottom:70px ;
-    font-size: 12px;
+    margin-bottom:10px ;
+    font-size: 1px;
 }
 .design-button{
 	margin-left: 37px;
@@ -176,7 +180,7 @@ h1{
 	background:  hsl(179, 100%, 13%) ;
 }
 
-@media (max-width:630px)  {
+@media (max-width:600px)  {
      #design-box{
      	display: flex;
         flex-wrap: wrap;
@@ -194,7 +198,7 @@ h1{
 #each-box1{
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 0px;
-	height: 30rem;
+	height: 27rem;
 	
 
 	}
@@ -202,10 +206,10 @@ h1{
     border-top-right-radius: 0px;
 	border-bottom-left-radius: 00px;
 	border-bottom-right-radius: 00px;
-	height: 30rem;
+	height:27rem;
 }
-#each-box3{
-	height: 30rem;
+#each-box2{
+	height: 27rem;
 }
 }
 .design-button{
@@ -222,19 +226,23 @@ h1{
 	margin-top: 45px;
 	margin-left: 35px;
 	width: 10px;
-	height: 15px;
+	height: 10px;
 }
 .design-head{
 	margin-top: 75px;
 	margin-left: 37px;
+   
 }
 .design-par{
 	margin-top: 25px;
 	margin-left: 37px;
 	
-   
+   line-height: 22px;
     margin-right: 30px;
-    margin-bottom:100px ;
-    font-size: 15px;
+    margin-bottom:65px ;
+    font-size: 12px;
+}
+button{
+	margin-bottom: 0px;
 }
 }
