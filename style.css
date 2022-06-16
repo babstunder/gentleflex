@@ -186,7 +186,7 @@ h1{
      	display: flex;
         flex-wrap: wrap;
         width: 350px;
-	height: 40rem;
+	height: 100rem;
 	overflow-y: scroll;
 	border:5px solid hsla(0, 0%, 100%, 0.75);;
 	border-radius: 10px;
