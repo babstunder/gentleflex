@@ -1,6 +1,10 @@
+
 body{
 	background: hsl(0, 0%, 95%);
-	font-family: 'Lexend Deca', sans-serif;
+
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Poppins', sans-serif;
+	
 	font-weight: 400;
 }
 .grid-body{
@@ -102,14 +106,17 @@ body{
 	
 	margin-left: 37px;
 	margin-top: 55px;
+	font-family: 'Big Shoulders Display', cursive;
 }
 p{
 	color:  hsla(0, 0%, 100%, 0.75);
+	font-family: 'Big Shoulders Display', cursive;
 }
 
 h1{
 	color: hsl(0, 0%, 95%);
-
+	font-family: 'Big Shoulders Display', cursive;
+	font-family: 'Lexend Deca', sans-serif;
 
 }
 .design-par{
